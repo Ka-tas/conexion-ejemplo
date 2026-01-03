@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel del Alumno</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h2>Panel del Alumno</h2>
+    <button id="logoutBtn" class="btn logout">Cerrar sesión</button>
+</header>
+
+<main class="container">
+    <section class="card">
+        <h3>Bienvenido, <span id="userName"></span></h3>
+        <p>Rol: <strong id="userRole"></strong></p>
+    </section>
+
+    <section class="card">
+        <h3>📚 Mis Cursos</h3>
+        <ul>
+            <li>Matemática Básica</li>
+            <li>Programación I</li>
+            <li>Arquitectura de Computadores</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>📝 Tareas Pendientes</h3>
+        <ul>
+            <li>Práctica 2 – Programación</li>
+            <li>Informe CPU Pipeline</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>📊 Calificaciones</h3>
+        <table>
+            <tr>
+                <th>Curso</th>
+                <th>Nota</th>
+            </tr>
+            <tr>
+                <td>Programación I</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Arquitectura</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
