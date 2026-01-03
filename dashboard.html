@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema Educativo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema Educativo</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#" id="logoutBtn">Cerrar Sesión</a>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <div class="dashboard">
+            <aside class="sidebar">
+                <div class="user-info">
+                    <h3 id="userName">Usuario</h3>
+                    <p id="userRole">Rol</p>
+                </div>
+                
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#" id="dashboardLink">Dashboard</a></li>
+                        <li><a href="#" id="profileLink">Perfil</a></li>
+                        <li><a href="#" id="coursesLink">Cursos</a></li>
+                        <li><a href="#" id="gradesLink">Calificaciones</a></li>
+                        <li><a href="#" id="messagesLink">Mensajes</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <section class="content">
+                <h2>Dashboard Principal</h2>
+                <p id="welcomeMessage">Bienvenido al sistema</p>
+                
+                <div id="dashboardContent">
+                    <!-- Contenido dinámico según rol -->
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
