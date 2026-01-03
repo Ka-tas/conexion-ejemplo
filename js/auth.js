@@ -1,4 +1,4 @@
-const API_URL = "https://conexion-ejemplo-api.onrender.com";
+const API_URL = "https://conexion-ejemplo-backend.onrender.com/";
 
 // =======================
 // Verificar autenticación
